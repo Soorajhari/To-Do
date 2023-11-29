@@ -1,0 +1,81 @@
+.container{
+    width: 40%;
+    margin-top: 50px;
+    background-color:#FCBAAD;
+    border: none;
+    padding: 30px;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+.forms{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    width: auto;
+}
+button{
+    margin-left: 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    width: 20%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+.list{
+    margin-top: 30px;
+    
+}
+
+li{
+    margin-top: 15px;
+    align-items: center;
+    margin-left: 12px;
+    background-color: black;
+    color: white;
+    border:none;
+    list-style-type: none;
+    border-radius: 6px;
+    padding: 10px;
+    
+}
+.list-items{
+   display: flex;
+}
+.list-items .list-item-list{
+flex: 1;
+}
+
+.list-items .list-item-icons{
+padding-left: 5px;
+font-size: 25px;
+}
+
+
+#comp{
+    color: green;
+}
+
+#edit{
+    color: blue;
+}
+
+#delete{
+    color: orange;
+}
+
+#list-item{
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+
+.del{
+    margin-left: 20px;
+}
